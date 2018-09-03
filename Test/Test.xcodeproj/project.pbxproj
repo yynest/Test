@@ -15,6 +15,7 @@
 		9F3D0271213D274E00BD1AC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D0270213D274E00BD1AC5 /* main.m */; };
 		9F3D027B213D274E00BD1AC5 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D027A213D274E00BD1AC5 /* TestTests.m */; };
 		9F3D0286213D274E00BD1AC5 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D0285213D274E00BD1AC5 /* TestUITests.m */; };
+		9F3D0295213D29F700BD1AC5 /* MainVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D0294213D29F700BD1AC5 /* MainVCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9F3D0281213D274E00BD1AC5 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3D0285213D274E00BD1AC5 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		9F3D0287213D274E00BD1AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3D0293213D29F700BD1AC5 /* MainVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVCViewController.h; sourceTree = "<group>"; };
+		9F3D0294213D29F700BD1AC5 /* MainVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				9F3D026C213D274E00BD1AC5 /* LaunchScreen.storyboard */,
 				9F3D026F213D274E00BD1AC5 /* Info.plist */,
 				9F3D0270213D274E00BD1AC5 /* main.m */,
+				9F3D0293213D29F700BD1AC5 /* MainVCViewController.h */,
+				9F3D0294213D29F700BD1AC5 /* MainVCViewController.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				9F3D0266213D274100BD1AC5 /* ViewController.m in Sources */,
 				9F3D0271213D274E00BD1AC5 /* main.m in Sources */,
+				9F3D0295213D29F700BD1AC5 /* MainVCViewController.m in Sources */,
 				9F3D0263213D274100BD1AC5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
